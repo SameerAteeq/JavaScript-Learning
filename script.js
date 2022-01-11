@@ -270,10 +270,41 @@ for(o=1; o<=10; o++){
     }
 }
 // <!--------------------------NESTED LOOP----------------------------->
-for(n = 1; n<=100; n+=10){
-    document.write(n + "<br>");
+// #### EXAMPLE 1 #########
+for(var n = 1; n <= 100; n+=10){
+    for( var m = n; m < n+10; m++ ){
+        document.write(m +" ");
+    }
+    document.write("<br>");
 }
-
+// #### EXAMPLE 2 #########
+for(var a = 1; a<=5; a++){
+    for(var b = 1; b<=a; b++){
+        document.write(b + " ")
+    }
+    document.write("<br>");
+}
+// #### EXAMPLE 3 #########
+for(var a =1; a<=5; a++){
+    for(var b=1; b<=a; b++){
+        document.write(a + " ");
+    }
+    document.write("<br> ");
+}
+// #### EXAMPLE 4 #########
+for(var a=5; a>=1; a--){
+    for(var b =1; b<=a; b++){
+        document.write(a +" ");
+    }
+    document.write("<br>");
+}
+// #### EXAMPLE 4 #########
+for(var a =5; a>=1; a--){
+    for(var b =a; b>=1; b--){
+        document.write(b +" ");
+    }
+        document.write("<br>");
+}
 // a = a + 1
 // a++
 // a+=1
