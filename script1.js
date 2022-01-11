@@ -40,7 +40,7 @@ document.write(a + "<br>");
 
 // ############################# JavaScript Array Functions ######################
 // ### 1:- SORT ###
-var a = ["hello","bye","what","there"];
+var a = ["hello","bye","what","theres"];
 a.sort();
 document.write(a);
 document.write("<br>");
