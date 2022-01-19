@@ -57,4 +57,10 @@ document.write(d+ "<br><br>");
 var a =["hello", "bye", "there","where", "here"]
 document.write(a + "<br><br>");
 var b = a.slice(1,2);
-document.write(b); /* It is use to write the values of first array in anoyher new array but we have to write according their index for example if i want to write just bye so i will give slice start value 1 and end value 2 because i have to print value index value from 1 to 2*/
+document.write(b+ "<br><br>"); /* It is use to write the values of first array in anoyher new array but we have to write according their index for example if i want to write just bye so i will give slice start value 1 and end value 2 because i have to print value index value from 1 to 2*/
+
+// ### 10:- SPLICE ######
+var a =["hello", "bye", "there","where", "here"]
+document.write(a + "<br><br>");
+a.splice(1,0,"why");
+document.write(a + "<br><br>"); /* it is use to add new value in the mid of the same array but we have to write three values firstly we will have to give index number then how many values i wanted to delete then last wwe will type new value*/ 
