@@ -1,4 +1,4 @@
-// ############# Const variable with ARRAY ###################
+// ############# Const variable with ARRAYS ###################
  const f = [12,13,14,15];
  document.write(f+ "<br>");
  f[1]=23; //In array const variable value cannot be assign new value in same variable but it can change by index value
