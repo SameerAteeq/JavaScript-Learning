@@ -42,5 +42,5 @@ document.write(b+"<br>");
 //<!-----------------------  7: toprecision  ----------------------->
 
 var a = 12.277530;
-var b = a.toPrecision(10); // This method is used to round off decimal values herein brackets() we can give any number how many values we want to print of variable means there should be 2 numbers
+var b = a.toPrecision(10); // This method is used to round off decimal values herein brackets() we can give any number how many values we want to print of variable.
 document.write(b+"<br>");
