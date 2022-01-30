@@ -9,11 +9,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="test">
-        <h1>Muhammad Sameer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laborum expedita nulla. Iure voluptate maxime numquam sequi recusandae optio cumque nemo totam et, accusamus provident? Recusandae optio fuga, laboriosam obcaecati blanditiis aliquam ex expedita dolorem assumenda voluptates ipsa corrupti, nam commodi porro natus tempore placeat? Suscipit a sint excepturi illo ipsam voluptas, nihil delectus dolorum beatae. Similique ipsam vel eum vitae est accusamus illum minus, facere alias eligendi incidunt reprehenderit neque natus quidem fugit officia harum repellendus corporis. Praesentium sed adipisci quod placeat veritatis ipsam officia exercitationem porro magnam earum. Nulla omnis culpa consectetur a cum officiis repellendus vel maxime.</p>
-        <p id="abc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis ducimus ipsum, natus impedit animi? Voluptatem quis quidem culpa alias laudantium, corporis fugiat quisquam fugit quod facere? Accusantium et nesciunt a, culpa est odio, deserunt mollitia fugit sed excepturi fugiat provident, consequatur at. Est odio quod quidem quia neque dolor! Ipsum eius earum facere accusantium repellat laboriosam provident quibusdam odit debitis unde rem ullam dolores iste at sit non tempore, amet quia sint. Quaerat vero asperiores atque? Quibusdam, molestias necessitatibus? Vel, repudiandae, quis atque non a itaque ab nisi asperiores sint eos animi accusantium magnam veritatis illum tempora incidunt exercitationem? Maiores, beatae autem? Quae autem nemo id velit quam, laudantium ab cumque, alias necessitatibus laborum tempore nostrum similique quidem tempora consectetur iste fugit eaque iusto repudiandae illum quas modi voluptate! Architecto mollitia ut harum, earum illum enim adipisci cum commodi impedit repudiandae voluptates sapiente incidunt eos! Doloremque enim debitis voluptatem animi, accusamus quam distinctio facere soluta culpa at. Atque, officiis, est quos perferendis cumque adipisci cupiditate commodi aut nesciunt temporibus laudantium nisi neque corporis quidem laborum cum distinctio, vel nulla perspiciatis quis vitae eligendi? Laborum nihil optio temporibus accusantium sed iste maxime recusandae? Facere obcaecati veritatis molestias. Eveniet, enim veritatis!</p>
-    </div>
-    <script src="./day9.js"></script>
+    <form onsubmit="submitfunction()">
+        <label for="Name">Name</label>
+        <input type="text" name="" id="fname" onfocus="focusfunction(this)" onblur="blurfunction(this)" oninvalid="alert('please fill the name.')" oninput="inputfunction(this)" required><br><br><br> <!---here we made function change the color in js file here "this" means where we focus it change its color-->
+        <label for="Name">class</label>
+        <input type="text" name="" id="" onfocus="focusfunction(this)" onblur="blurfunction(this)"><br><br><br>
+        <label for="country">country</label>
+        <select id="" onchange="changefunction(this)" >
+            <option value="pakistan">pakistan</option>
+            <option value="india">india</option>
+            <option value="iran">iran</option>
+            <option value="bamgladesh">bamgladesh</option>
+        </select>
+        <input type="submit">
+    </form>
+    <div id="test" style="border: 1px solid red;margin-top: 20px"></div>
+    <div id="div" style="height:150px;width:150px;background:red; margin-top:30px"></div>
+    <script src="./day10-I.js"></script>
 </body>
 </html>
